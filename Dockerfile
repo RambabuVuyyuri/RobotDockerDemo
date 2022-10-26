@@ -6,7 +6,7 @@ LABEL version="latest" maintainer="Rambabu"
 RUN apt-get update
 
 #install python
-RUN apt install -y python3.7
+RUN apt install -y python-dev-is-python3
 RUN apt install -y python3-pip
 
 #install robotframework and seleniumlibrary
