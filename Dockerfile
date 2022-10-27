@@ -11,9 +11,5 @@ RUN apt install -y python3-pip
 
 #install robotframework and seleniumlibrary
 RUN pip3 install robotframework
+CMD ["sleep","10000"]
 
-
-#Robot Specific
-RUN mkdir /robot
-RUN mkdir /results
-ENTRYPOINT ["robot"]
